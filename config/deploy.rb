@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.15.0"
 
-set :application, "myforum"
+set :application, "mytruc"
 set :repo_url, "https://github.com/CyrilGoldenschue/myforum"
 
 # Default branch is :master

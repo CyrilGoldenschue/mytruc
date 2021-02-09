@@ -112,3 +112,584 @@
   INFO ---------------------------------------------------------------------------
   INFO [3f943d7c] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
  DEBUG [3f943d7c] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:46:47 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e6fa8106] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [e6fa8106] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:52:03 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [87efb7c6] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [87efb7c6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:54:47 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d2a4f152] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [d2a4f152] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:55:33 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [71302ed5] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [71302ed5] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 14:01:17 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bbeb2376] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [bbeb2376] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 14:22:11 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [220d75b7] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [220d75b7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [220d75b7] Finished in 0.435 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-415e9bdeca1de879b14a.sh 0.0%
+  INFO Uploading /tmp/git-ssh-415e9bdeca1de879b14a.sh 100.0%
+  INFO [d5da7ffc] Running /usr/bin/env chmod 700 /tmp/git-ssh-415e9bdeca1de879b14a.sh as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [d5da7ffc] Command: /usr/bin/env chmod 700 /tmp/git-ssh-415e9bdeca1de879b14a.sh
+  INFO [d5da7ffc] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [a395a511] Running /usr/bin/env git ls-remote git@github.com:CyrilGoldenschue/mytruc.git HEAD as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [a395a511] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env git ls-remote git@github.com:CyrilGoldenschue/mytruc.git HEAD )
+ DEBUG [a395a511] 	Warning: Permanently added the RSA host key for IP address '140.82.121.3' to the list of known hosts.
+ DEBUG [a395a511] 	3dfb2da7aa39beaeb7343dacb125c559ca526e0b	HEAD
+  INFO [a395a511] Finished in 1.298 seconds with exit status 0 (successful).
+  INFO [ef0a6f89] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared /home/cld2_4/cld2-4.mycpnv.ch/releases as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [ef0a6f89] Command: /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared /home/cld2_4/cld2-4.mycpnv.ch/releases
+  INFO [ef0a6f89] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [cafdf873] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [cafdf873] Command: /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs
+  INFO [cafdf873] Finished in 0.131 seconds with exit status 0 (successful).
+ DEBUG [a77b2e1a] Running [ -f /home/cld2_4/cld2-4.mycpnv.ch/current/REVISION ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [a77b2e1a] Command: [ -f /home/cld2_4/cld2-4.mycpnv.ch/current/REVISION ]
+ DEBUG [a77b2e1a] Finished in 0.141 seconds with exit status 1 (failed).
+ DEBUG [14facfb3] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [14facfb3] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [14facfb3] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [c5242117] Running /usr/bin/env mkdir -p storage/app as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [c5242117] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/app
+  INFO [c5242117] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [9dd68e03] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [9dd68e03] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [9dd68e03] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [9925843a] Running /usr/bin/env mkdir -p storage/framework/cache as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [9925843a] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/framework/cache
+  INFO [9925843a] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [343a8256] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [343a8256] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [343a8256] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [3f71671e] Running /usr/bin/env mkdir -p storage/framework/sessions as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [3f71671e] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/framework/sessions
+  INFO [3f71671e] Finished in 0.164 seconds with exit status 0 (successful).
+ DEBUG [a47c4505] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [a47c4505] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [a47c4505] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [37116128] Running /usr/bin/env mkdir -p storage/framework/views as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [37116128] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/framework/views
+  INFO [37116128] Finished in 0.162 seconds with exit status 0 (successful).
+ DEBUG [2bed8b55] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [2bed8b55] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [2bed8b55] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [b4e60ad6] Running /usr/bin/env mkdir -p storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b4e60ad6] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/logs
+  INFO [b4e60ad6] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [883573c8] Running [ -f /home/cld2_4/cld2-4.mycpnv.ch/repo/HEAD ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [883573c8] Command: [ -f /home/cld2_4/cld2-4.mycpnv.ch/repo/HEAD ]
+ DEBUG [883573c8] Finished in 0.131 seconds with exit status 1 (failed).
+ DEBUG [770b3eb4] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [770b3eb4] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch'" 1>&2; false; fi
+ DEBUG [770b3eb4] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [4de5e7be] Running /usr/bin/env git clone --mirror git@github.com:CyrilGoldenschue/mytruc.git /home/cld2_4/cld2-4.mycpnv.ch/repo as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [4de5e7be] Command: cd /home/cld2_4/cld2-4.mycpnv.ch && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env git clone --mirror git@github.com:CyrilGoldenschue/mytruc.git /home/cld2_4/cld2-4.mycpnv.ch/repo )
+ DEBUG [4de5e7be] 	warning: templates not found /usr/share/git-core/templates
+ DEBUG [4de5e7be] 	Initialized empty Git repository in /home/cld2_4/cld2-4.mycpnv.ch/repo/
+  INFO [4de5e7be] Finished in 1.645 seconds with exit status 0 (successful).
+ DEBUG [0e4bd06b] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [0e4bd06b] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [0e4bd06b] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [7a281d37] Running /usr/bin/env git remote set-url origin git@github.com:CyrilGoldenschue/mytruc.git as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [7a281d37] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env git remote set-url origin git@github.com:CyrilGoldenschue/mytruc.git )
+  INFO [7a281d37] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [86ab55dc] Running /usr/bin/env git remote update --prune as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [86ab55dc] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [86ab55dc] 	Fetching origin
+  INFO [86ab55dc] Finished in 1.284 seconds with exit status 0 (successful).
+ DEBUG [5c51d04b] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [5c51d04b] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [5c51d04b] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [d22a2264] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215 as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [d22a2264] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215 )
+  INFO [d22a2264] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [09403a9e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215 as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [09403a9e] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215 )
+  INFO [09403a9e] Finished in 0.197 seconds with exit status 0 (successful).
+ DEBUG [bcc8fa20] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [bcc8fa20] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [bcc8fa20] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [b1b0bb88] Running /usr/bin/env git rev-list --max-count=1 master as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b1b0bb88] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-415e9bdeca1de879b14a.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b1b0bb88] 	3dfb2da7aa39beaeb7343dacb125c559ca526e0b
+ DEBUG [b1b0bb88] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [ff055451] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [ff055451] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215'" 1>&2; false; fi
+ DEBUG [ff055451] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [0f1fd666] Running /usr/bin/env echo "3dfb2da7aa39beaeb7343dacb125c559ca526e0b" > REVISION as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [0f1fd666] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215 && /usr/bin/env echo "3dfb2da7aa39beaeb7343dacb125c559ca526e0b" > REVISION
+  INFO [0f1fd666] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [cfd1866e] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [cfd1866e] Command: /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework
+  INFO [cfd1866e] Finished in 0.132 seconds with exit status 0 (successful).
+ DEBUG [179e91f2] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [179e91f2] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app ]
+ DEBUG [179e91f2] Finished in 0.142 seconds with exit status 1 (failed).
+ DEBUG [c1b408ed] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [c1b408ed] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app ]
+ DEBUG [c1b408ed] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [b5a1f5b6] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b5a1f5b6] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app
+  INFO [b5a1f5b6] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [b037e466] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b037e466] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/app
+  INFO [b037e466] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [49602667] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [49602667] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache ]
+ DEBUG [49602667] Finished in 0.141 seconds with exit status 1 (failed).
+ DEBUG [f62b5491] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [f62b5491] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache ]
+ DEBUG [f62b5491] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [b62013d7] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b62013d7] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache
+  INFO [b62013d7] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [6fd7095d] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [6fd7095d] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/cache
+  INFO [6fd7095d] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [80d2bba7] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [80d2bba7] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions ]
+ DEBUG [80d2bba7] Finished in 0.163 seconds with exit status 1 (failed).
+ DEBUG [560aa02f] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [560aa02f] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions ]
+ DEBUG [560aa02f] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [b520ec31] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b520ec31] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions
+  INFO [b520ec31] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [67a13e37] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [67a13e37] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/sessions
+  INFO [67a13e37] Finished in 0.131 seconds with exit status 0 (successful).
+ DEBUG [d537b2d0] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [d537b2d0] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views ]
+ DEBUG [d537b2d0] Finished in 0.142 seconds with exit status 1 (failed).
+ DEBUG [d877cbb3] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [d877cbb3] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views ]
+ DEBUG [d877cbb3] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [d8a5ead4] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [d8a5ead4] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views
+  INFO [d8a5ead4] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [f5e48fa5] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [f5e48fa5] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/framework/views
+  INFO [f5e48fa5] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [eab2118d] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [eab2118d] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs ]
+ DEBUG [eab2118d] Finished in 0.132 seconds with exit status 1 (failed).
+ DEBUG [4a685bf6] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [4a685bf6] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs ]
+ DEBUG [4a685bf6] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [66693798] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [66693798] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs
+  INFO [66693798] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [54cf2375] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [54cf2375] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215/storage/logs
+  INFO [54cf2375] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [ed0c6dda] Running ls /home/cld2_4/.data/cld2-4.mycpnv.ch_php* 2>/dev/null | sed -E 's/.+(php[[:digit:]]+)$/\1/' >/tmp/.php-cli-version as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [ed0c6dda] Command: ls /home/cld2_4/.data/cld2-4.mycpnv.ch_php* 2>/dev/null | sed -E 's/.+(php[[:digit:]]+)$/\1/' >/tmp/.php-cli-version
+  INFO [ed0c6dda] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [54e6b399] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [54e6b399] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215'" 1>&2; false; fi
+ DEBUG [54e6b399] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [f5c772d5] Running php -d allow_url_fopen=true /home/cld2_4/cld2-4.mycpnv.ch/shared/composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [f5c772d5] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132215 && php -d allow_url_fopen=true /home/cld2_4/cld2-4.mycpnv.ch/shared/composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
+ DEBUG [f5c772d5] 	Installing dependencies from lock file
+ DEBUG [f5c772d5] 	Verifying lock file contents can be installed on current platform.
+ DEBUG [f5c772d5] 	Your lock file does not contain a compatible set of packages. Please run composer update.
+ DEBUG [f5c772d5] 	
+  Problem 1
+    - Root composer.json requires php ^7.3|^8.0 but your php version (7.2.27) does not satisfy that requirement.
+  Problem 2
+    - laravel/framework is locked to version v8.15.0 and an update of this package was not requested.
+    - laravel/framework v8.15.0 requires php ^7.3|^8.0 -> your php version (7.2.27) does not satisfy that requirement.
+  Problem 3
+    - laravel/framework v8.15.0 requires php ^7.3|^8.0 -> your php version (7.2.27) does not satisfy that requirement.
+    - laravel/tinker v2.5.0 requires illuminate/console ^6.0|^7.0|^8.0 -> satisfiable by laravel/framework[v8.15.0].
+    - laravel/tinker is locked to version v2.5.0 and an update of this package was not requested.
+
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 14:23:23 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1463cf2c] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [1463cf2c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1463cf2c] Finished in 0.456 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-e8f1cddb5ab70060030f.sh 0.0%
+  INFO Uploading /tmp/git-ssh-e8f1cddb5ab70060030f.sh 100.0%
+  INFO [0f6b5e60] Running /usr/bin/env chmod 700 /tmp/git-ssh-e8f1cddb5ab70060030f.sh as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [0f6b5e60] Command: /usr/bin/env chmod 700 /tmp/git-ssh-e8f1cddb5ab70060030f.sh
+  INFO [0f6b5e60] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [44ddd40f] Running /usr/bin/env git ls-remote git@github.com:CyrilGoldenschue/mytruc.git HEAD as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [44ddd40f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e8f1cddb5ab70060030f.sh" ; /usr/bin/env git ls-remote git@github.com:CyrilGoldenschue/mytruc.git HEAD )
+ DEBUG [44ddd40f] 	3dfb2da7aa39beaeb7343dacb125c559ca526e0b	HEAD
+  INFO [44ddd40f] Finished in 1.279 seconds with exit status 0 (successful).
+  INFO [80aafbb3] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared /home/cld2_4/cld2-4.mycpnv.ch/releases as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [80aafbb3] Command: /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared /home/cld2_4/cld2-4.mycpnv.ch/releases
+  INFO [80aafbb3] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [8f79daa3] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [8f79daa3] Command: /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs
+  INFO [8f79daa3] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [206ac3ba] Running [ -f /home/cld2_4/cld2-4.mycpnv.ch/current/REVISION ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [206ac3ba] Command: [ -f /home/cld2_4/cld2-4.mycpnv.ch/current/REVISION ]
+ DEBUG [206ac3ba] Finished in 0.140 seconds with exit status 1 (failed).
+ DEBUG [6f762509] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [6f762509] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [6f762509] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [b16f057f] Running /usr/bin/env mkdir -p storage/app as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b16f057f] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/app
+  INFO [b16f057f] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [74d1b393] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [74d1b393] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [74d1b393] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [5ac34553] Running /usr/bin/env mkdir -p storage/framework/cache as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [5ac34553] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/framework/cache
+  INFO [5ac34553] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [9cb84c3a] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [9cb84c3a] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [9cb84c3a] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [78bde15f] Running /usr/bin/env mkdir -p storage/framework/sessions as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [78bde15f] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/framework/sessions
+  INFO [78bde15f] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [1134272e] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [1134272e] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [1134272e] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [e6ff2667] Running /usr/bin/env mkdir -p storage/framework/views as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [e6ff2667] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/framework/views
+  INFO [e6ff2667] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [c135b8a2] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [c135b8a2] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/shared; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/shared'" 1>&2; false; fi
+ DEBUG [c135b8a2] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [137787f8] Running /usr/bin/env mkdir -p storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [137787f8] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/shared && /usr/bin/env mkdir -p storage/logs
+  INFO [137787f8] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [24beab50] Running [ -f /home/cld2_4/cld2-4.mycpnv.ch/repo/HEAD ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [24beab50] Command: [ -f /home/cld2_4/cld2-4.mycpnv.ch/repo/HEAD ]
+ DEBUG [24beab50] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/cld2_4/cld2-4.mycpnv.ch/repo
+ DEBUG [907b0554] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [907b0554] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [907b0554] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [b65d468f] Running /usr/bin/env git remote set-url origin git@github.com:CyrilGoldenschue/mytruc.git as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b65d468f] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e8f1cddb5ab70060030f.sh" ; /usr/bin/env git remote set-url origin git@github.com:CyrilGoldenschue/mytruc.git )
+  INFO [b65d468f] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [76f76406] Running /usr/bin/env git remote update --prune as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [76f76406] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e8f1cddb5ab70060030f.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [76f76406] 	Fetching origin
+  INFO [76f76406] Finished in 1.248 seconds with exit status 0 (successful).
+ DEBUG [2a460591] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [2a460591] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [2a460591] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [c0b63bf7] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [c0b63bf7] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e8f1cddb5ab70060030f.sh" ; /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 )
+  INFO [c0b63bf7] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [bad4b099] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [bad4b099] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e8f1cddb5ab70060030f.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 )
+  INFO [bad4b099] Finished in 0.184 seconds with exit status 0 (successful).
+ DEBUG [6ff2f8b4] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [6ff2f8b4] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [6ff2f8b4] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [46fbf431] Running /usr/bin/env git rev-list --max-count=1 master as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [46fbf431] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-e8f1cddb5ab70060030f.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [46fbf431] 	3dfb2da7aa39beaeb7343dacb125c559ca526e0b
+ DEBUG [46fbf431] Finished in 0.163 seconds with exit status 0 (successful).
+ DEBUG [66edca49] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [66edca49] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi
+ DEBUG [66edca49] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [18c47ad1] Running /usr/bin/env echo "3dfb2da7aa39beaeb7343dacb125c559ca526e0b" > REVISION as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [18c47ad1] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 && /usr/bin/env echo "3dfb2da7aa39beaeb7343dacb125c559ca526e0b" > REVISION
+  INFO [18c47ad1] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [ae5ca030] Running /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [ae5ca030] Command: /usr/bin/env mkdir -p /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework
+  INFO [ae5ca030] Finished in 0.132 seconds with exit status 0 (successful).
+ DEBUG [002c5353] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [002c5353] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app ]
+ DEBUG [002c5353] Finished in 0.154 seconds with exit status 1 (failed).
+ DEBUG [de945337] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [de945337] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app ]
+ DEBUG [de945337] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [82fa7693] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [82fa7693] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app
+  INFO [82fa7693] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [4315bbe5] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [4315bbe5] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/app /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app
+  INFO [4315bbe5] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [2cddff5c] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [2cddff5c] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache ]
+ DEBUG [2cddff5c] Finished in 0.154 seconds with exit status 1 (failed).
+ DEBUG [eef1d9d8] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [eef1d9d8] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache ]
+ DEBUG [eef1d9d8] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [02cdb146] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [02cdb146] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache
+  INFO [02cdb146] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [2807354b] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [2807354b] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/cache /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/cache
+  INFO [2807354b] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [40fb3f6d] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [40fb3f6d] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions ]
+ DEBUG [40fb3f6d] Finished in 0.132 seconds with exit status 1 (failed).
+ DEBUG [e9962704] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [e9962704] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions ]
+ DEBUG [e9962704] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [b6e5c629] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b6e5c629] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions
+  INFO [b6e5c629] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [b0b696cd] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b0b696cd] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/sessions /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/sessions
+  INFO [b0b696cd] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [b8680fe5] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [b8680fe5] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views ]
+ DEBUG [b8680fe5] Finished in 0.132 seconds with exit status 1 (failed).
+ DEBUG [8b642b94] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [8b642b94] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views ]
+ DEBUG [8b642b94] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [bb2d2e38] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [bb2d2e38] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views
+  INFO [bb2d2e38] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [feb2ebcb] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [feb2ebcb] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/framework/views /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/framework/views
+  INFO [feb2ebcb] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [32f91db6] Running [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [32f91db6] Command: [ -L /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs ]
+ DEBUG [32f91db6] Finished in 0.128 seconds with exit status 1 (failed).
+ DEBUG [4ab783c9] Running [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs ] as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [4ab783c9] Command: [ -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs ]
+ DEBUG [4ab783c9] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [1fdd26cf] Running /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [1fdd26cf] Command: /usr/bin/env rm -rf /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs
+  INFO [1fdd26cf] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [999463c5] Running /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [999463c5] Command: /usr/bin/env ln -s /home/cld2_4/cld2-4.mycpnv.ch/shared/storage/logs /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/logs
+  INFO [999463c5] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [59503537] Running ls /home/cld2_4/.data/cld2-4.mycpnv.ch_php* 2>/dev/null | sed -E 's/.+(php[[:digit:]]+)$/\1/' >/tmp/.php-cli-version as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [59503537] Command: ls /home/cld2_4/.data/cld2-4.mycpnv.ch_php* 2>/dev/null | sed -E 's/.+(php[[:digit:]]+)$/\1/' >/tmp/.php-cli-version
+  INFO [59503537] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [6d486616] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [6d486616] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi
+ DEBUG [6d486616] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [8d290b34] Running php -d allow_url_fopen=true /home/cld2_4/cld2-4.mycpnv.ch/shared/composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [8d290b34] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 && php -d allow_url_fopen=true /home/cld2_4/cld2-4.mycpnv.ch/shared/composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
+ DEBUG [8d290b34] 	Installing dependencies from lock file
+ DEBUG [8d290b34] 	Verifying lock file contents can be installed on current platform.
+ DEBUG [8d290b34] 	Package operations: 64 installs, 0 updates, 0 removals
+ DEBUG [8d290b34] 	  - Downloading doctrine/inflector (2.0.3)
+ DEBUG [8d290b34] 	  - Downloading doctrine/lexer (1.2.1)
+ DEBUG [8d290b34] 	  - Downloading dragonmantank/cron-expression (v3.0.2)
+ DEBUG [8d290b34] 	  - Downloading voku/portable-ascii (1.5.6)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-php80 (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-mbstring (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-ctype (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading phpoption/phpoption (1.7.5)
+ DEBUG [8d290b34] 	  - Downloading graham-campbell/result-type (v1.0.1)
+ DEBUG [8d290b34] 	  - Downloading vlucas/phpdotenv (v5.2.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/css-selector (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading tijsverkoyen/css-to-inline-styles (2.2.3)
+ DEBUG [8d290b34] 	  - Downloading symfony/var-dumper (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/deprecation-contracts (v2.2.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/routing (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/process (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-php72 (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-intl-normalizer (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-intl-idn (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/mime (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-php73 (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/http-foundation (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/http-client-contracts (v2.3.1)
+ DEBUG [8d290b34] 	  - Downloading psr/event-dispatcher (1.0.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/event-dispatcher-contracts (v2.2.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/event-dispatcher (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading psr/log (1.1.3)
+ DEBUG [8d290b34] 	  - Downloading symfony/error-handler (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/http-kernel (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/finder (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-intl-grapheme (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/string (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading psr/container (1.0.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/service-contracts (v2.2.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/console (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading symfony/polyfill-iconv (v1.20.0)
+ DEBUG [8d290b34] 	  - Downloading egulias/email-validator (2.1.24)
+ DEBUG [8d290b34] 	  - Downloading swiftmailer/swiftmailer (v6.2.3)
+ DEBUG [8d290b34] 	  - Downloading ramsey/collection (1.1.1)
+ DEBUG [8d290b34] 	  - Downloading brick/math (0.9.1)
+ DEBUG [8d290b34] 	  - Downloading ramsey/uuid (4.1.1)
+ DEBUG [8d290b34] 	  - Downloading psr/simple-cache (1.0.1)
+ DEBUG [8d290b34] 	  - Downloading opis/closure (3.6.1)
+ DEBUG [8d290b34] 	  - Downloading symfony/translation-contracts (v2.3.0)
+ DEBUG [8d290b34] 	  - Downloading symfony/translation (v5.1.8)
+ DEBUG [8d290b34] 	  - Downloading nesbot/carbon (2.41.5)
+ DEBUG [8d290b34] 	  - Downloading monolog/monolog (2.1.1)
+ DEBUG [8d290b34] 	  - Downloading league/mime-type-detection (1.5.1)
+ DEBUG [8d290b34] 	  - Downloading league/flysystem (1.1.3)
+ DEBUG [8d290b34] 	  - Downloading league/commonmark (1.5.7)
+ DEBUG [8d290b34] 	  - Downloading laravel/framework (v8.15.0)
+ DEBUG [8d290b34] 	  - Downloading fideloper/proxy (4.4.1)
+ DEBUG [8d290b34] 	  - Downloading asm89/stack-cors (v2.0.2)
+ DEBUG [8d290b34] 	  - Downloading fruitcake/laravel-cors (v2.0.3)
+ DEBUG [8d290b34] 	  - Downloading psr/http-message (1.0.1)
+ DEBUG [8d290b34] 	  - Downloading psr/http-client (1.0.1)
+ DEBUG [8d290b34] 	  - Downloading ralouphie/getallheaders (3.0.3)
+ DEBUG [8d290b34] 	  - Downloading guzzlehttp/psr7 (1.7.0)
+ DEBUG [8d290b34] 	  - Downloading guzzlehttp/promises (1.4.0)
+ DEBUG [8d290b34] 	  - Downloading guzzlehttp/guzzle (7.2.0)
+ DEBUG [8d290b34] 	  - Downloading nikic/php-parser (v4.10.2)
+ DEBUG [8d290b34] 	  - Downloading dnoegel/php-xdg-base-dir (v0.1.1)
+ DEBUG [8d290b34] 	  - Downloading psy/psysh (v0.10.4)
+ DEBUG [8d290b34] 	  - Downloading laravel/tinker (v2.5.0)
+ DEBUG [8d290b34] 	  0/64 [>---------------------------]   0%
+ DEBUG [8d290b34] 	
+  8/64 [===>------------------------]  12%
+ DEBUG [8d290b34] 	
+ 15/64 [======>---------------------]  23%
+ DEBUG [8d290b34] 	
+ 22/64 [=========>------------------]  34%
+ DEBUG [8d290b34] 	
+ 26/64 [===========>----------------]  40%
+ DEBUG [8d290b34] 	
+ 33/64 [==============>-------------]  51%
+ DEBUG [8d290b34] 	
+ 38/64 [================>-----------]  59%
+ DEBUG [8d290b34] 	
+ 44/64 [===================>--------]  68%
+ DEBUG [8d290b34] 	
+ 49/64 [=====================>------]  76%
+ DEBUG [8d290b34] 	
+ 57/64 [========================>---]  89%
+ DEBUG [8d290b34] 	
+ 62/64 [===========================>]  96%
+ DEBUG [8d290b34] 	
+ 64/64 [============================] 100%
+ DEBUG [8d290b34] 	  - Installing doctrine/inflector (2.0.3): Extracting archive
+ DEBUG [8d290b34] 	  - Installing doctrine/lexer (1.2.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing dragonmantank/cron-expression (v3.0.2): Extracting archive
+ DEBUG [8d290b34] 	  - Installing voku/portable-ascii (1.5.6): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-php80 (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-mbstring (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-ctype (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing phpoption/phpoption (1.7.5): Extracting archive
+ DEBUG [8d290b34] 	  - Installing graham-campbell/result-type (v1.0.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing vlucas/phpdotenv (v5.2.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/css-selector (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing tijsverkoyen/css-to-inline-styles (2.2.3): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/var-dumper (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/deprecation-contracts (v2.2.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/routing (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/process (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-php72 (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-intl-normalizer (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-intl-idn (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/mime (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-php73 (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/http-foundation (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/http-client-contracts (v2.3.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/event-dispatcher-contracts (v2.2.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/event-dispatcher (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing psr/log (1.1.3): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/error-handler (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/http-kernel (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/finder (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-intl-grapheme (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/string (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing psr/container (1.0.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/service-contracts (v2.2.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/console (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/polyfill-iconv (v1.20.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing egulias/email-validator (2.1.24): Extracting archive
+ DEBUG [8d290b34] 	  - Installing swiftmailer/swiftmailer (v6.2.3): Extracting archive
+ DEBUG [8d290b34] 	  - Installing ramsey/collection (1.1.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing brick/math (0.9.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing ramsey/uuid (4.1.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing psr/simple-cache (1.0.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing opis/closure (3.6.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/translation-contracts (v2.3.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing symfony/translation (v5.1.8): Extracting archive
+ DEBUG [8d290b34] 	  - Installing nesbot/carbon (2.41.5): Extracting archive
+ DEBUG [8d290b34] 	  - Installing monolog/monolog (2.1.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing league/mime-type-detection (1.5.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing league/flysystem (1.1.3): Extracting archive
+ DEBUG [8d290b34] 	  - Installing league/commonmark (1.5.7): Extracting archive
+  - Installing laravel/framework (v8.15.0): Extracting archive
+  - Installing fideloper/proxy (4.4.1): Extracting archive
+  - Installing asm89/stack-cors (v2.0.2): Extracting archive
+  - Installing fruitcake/laravel-cors (v2.0.3): Extracting archive
+ DEBUG [8d290b34] 	  - Installing psr/http-message (1.0.1): Extracting archive
+  - Installing psr/http-client (1.0.1): Extracting archive
+  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+  - Installing guzzlehttp/psr7 (1.7.0): Extracting archive
+  - Installing guzzlehttp/promises (1.4.0): Extracting archive
+  - Installing guzzlehttp/guzzle (7.2.0): Extracting archive
+ DEBUG [8d290b34] 	  - Installing nikic/php-parser (v4.10.2): Extracting archive
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Extracting archive
+ DEBUG [8d290b34] 	  - Installing psy/psysh (v0.10.4): Extracting archive
+  - Installing laravel/tinker (v2.5.0): Extracting archive
+ DEBUG [8d290b34] 	  0/54 [>---------------------------]   0%
+ DEBUG [8d290b34] 	
+  8/54 [====>-----------------------]  14%
+ DEBUG [8d290b34] 	
+ 18/54 [=========>------------------]  33%
+ DEBUG [8d290b34] 	
+ 21/54 [==========>-----------------]  38%
+ DEBUG [8d290b34] 	
+ 30/54 [===============>------------]  55%
+ DEBUG [8d290b34] 	
+ 39/54 [====================>-------]  72%
+ DEBUG [8d290b34] 	
+ 48/54 [========================>---]  88%
+ DEBUG [8d290b34] 	
+ 53/54 [===========================>]  98%
+ DEBUG [8d290b34] 	
+ 54/54 [============================] 100%
+ DEBUG [8d290b34] 	Generating optimized autoload files
+ DEBUG [8d290b34] 	> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+ DEBUG [8d290b34] 	> @php artisan package:discover --ansi
+ DEBUG [8d290b34] 	Discovered Package: [32mfideloper/proxy[39m
+Discovered Package: [32mfruitcake/laravel-cors[39m
+Discovered Package: [32mlaravel/tinker[39m
+Discovered Package: [32mnesbot/carbon[39m
+[32mPackage manifest generated successfully.[39m
+  INFO [8d290b34] Finished in 5.834 seconds with exit status 0 (successful).
+ DEBUG [cf2f7783] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [cf2f7783] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi
+ DEBUG [cf2f7783] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [445dcf21] Running /usr/bin/env php artisan storage:link --env=production as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [445dcf21] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 && /usr/bin/env php artisan storage:link --env=production
+ DEBUG [445dcf21] 	The [/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/public/storage] link has been connected to [/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/storage/app/public].
+The links have been created.
+  INFO [445dcf21] Finished in 0.359 seconds with exit status 0 (successful).
+  INFO [ba5821a7] Running /usr/bin/env cp /home/cld2_4/cld2-4.mycpnv.ch/shared/.env /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/.env as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [ba5821a7] Command: /usr/bin/env cp /home/cld2_4/cld2-4.mycpnv.ch/shared/.env /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327/.env
+  INFO [ba5821a7] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [405d6718] Running if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [405d6718] Command: if test ! -d /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327; then echo "Directory does not exist '/home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327'" 1>&2; false; fi
+ DEBUG [405d6718] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [5c130333] Running /usr/bin/env php artisan migrate --force --env=production as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [5c130333] Command: cd /home/cld2_4/cld2-4.mycpnv.ch/releases/20210209132327 && /usr/bin/env php artisan migrate --force --env=production
+ DEBUG [5c130333] 	Migration table created successfully.
+ DEBUG [5c130333] 	Migrating: 2014_10_12_000000_create_users_table
+ DEBUG [5c130333] 	
+ DEBUG [5c130333] 	In Connection.php line 671:
+                                                                               
+ DEBUG [5c130333] 	  SQLSTATE[HY000]: General error: 1709 Index column size too large. The maxim  
+  um column size is 767 bytes. (SQL: alter table `users` add unique `users_em  
+ DEBUG [5c130333] 	  ail_unique`(`email`))                                                        
+                                                                               
+
+ DEBUG [5c130333] 	In Connection.php line 464:
+                                                                               
+ DEBUG [5c130333] 	  SQLSTATE[HY000]: General error: 1709 Index column size too large. The maxim  
+  um column size is 767 bytes.                                                 
+ DEBUG [5c130333] 	                                                                               
+

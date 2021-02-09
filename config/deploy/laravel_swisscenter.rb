@@ -10,7 +10,7 @@ set :composer_install_flags, '--no-dev --prefer-dist --no-interaction --optimize
 SSHKit.config.command_map[:composer] = "php -d allow_url_fopen=true #{shared_path.join('composer')}"
 
 server fetch(:swisscenter_servername), user: fetch(:swisscenter_username), roles: %w{app db web}, ssh_options: {
-  keys: ["./config/#{fetch(:swisscenter_username)}_rsa"],
+  keys: ["C:/Users/cyril/.ssh/cld2-4_rsa"],
   forward_agent: false,
   auth_methods: %w(publickey)
 }
