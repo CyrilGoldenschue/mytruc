@@ -6,7 +6,7 @@
 set :swisscenter_username, "cld2_4"
 set :swisscenter_servername, "cld2-4.mycpnv.ch"
 
-set :repo_url, "git@github.com:CyrilGoldenschue/myforum.git"
+set :repo_url, "git@github.com:CyrilGoldenschue/mytruc.git"
 
 require_relative 'laravel_swisscenter'
 

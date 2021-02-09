@@ -102,3 +102,13 @@
   INFO ---------------------------------------------------------------------------
   INFO [bfae037b] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
  DEBUG [bfae037b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:42:12 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [24bb98a0] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [24bb98a0] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:44:04 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3f943d7c] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [3f943d7c] Command: /usr/bin/env mkdir -p /tmp
