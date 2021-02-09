@@ -1,0 +1,104 @@
+# Logfile created on 2021-02-02 11:04:53 +0100 by logger.rb/v1.4.3
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:04:53 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [21352a53] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [21352a53] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:05:50 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6365b87e] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [6365b87e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [491a36f4] Running /usr/bin/env #<StringIO:0x0000000006df9e08> /tmp/git-ssh-67175ec34e179860071f.sh as cld2_4@web13.swisscenter.com
+ DEBUG [491a36f4] Command: /usr/bin/env #<StringIO:0x0000000006df9e08> /tmp/git-ssh-67175ec34e179860071f.sh
+  INFO [606951c4] Running /usr/bin/env chmod 700 /tmp/git-ssh-67175ec34e179860071f.sh as cld2_4@web13.swisscenter.com
+ DEBUG [606951c4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-67175ec34e179860071f.sh
+  INFO [9af9d5f1] Running /usr/bin/env git ls-remote cld2_4@web13.swisscenter.com:git HEAD as cld2_4@web13.swisscenter.com
+ DEBUG [9af9d5f1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-67175ec34e179860071f.sh" ; /usr/bin/env git ls-remote cld2_4@web13.swisscenter.com:git HEAD )
+  INFO [2dc06663] Running /usr/bin/env mkdir -p /remote/www/shared /remote/www/releases as cld2_4@web13.swisscenter.com
+ DEBUG [2dc06663] Command: /usr/bin/env mkdir -p /remote/www/shared /remote/www/releases
+ DEBUG [31818761] Running [ -f /remote/www/current/REVISION ] as cld2_4@web13.swisscenter.com
+ DEBUG [31818761] Command: [ -f /remote/www/current/REVISION ]
+ DEBUG [c5e28047] Running /usr/bin/env cat /remote/www/current/REVISION 2>/dev/null as cld2_4@web13.swisscenter.com
+ DEBUG [c5e28047] Command: /usr/bin/env cat /remote/www/current/REVISION 2>/dev/null
+ DEBUG [64271325] Running [ -f /remote/www/repo/HEAD ] as cld2_4@web13.swisscenter.com
+ DEBUG [64271325] Command: [ -f /remote/www/repo/HEAD ]
+  INFO The repository mirror is at /remote/www/repo
+ DEBUG [4d5a7ae9] Running if test ! -d /remote/www/repo; then echo "Directory does not exist '/remote/www/repo'" 1>&2; false; fi as cld2_4@web13.swisscenter.com
+ DEBUG [4d5a7ae9] Command: if test ! -d /remote/www/repo; then echo "Directory does not exist '/remote/www/repo'" 1>&2; false; fi
+  INFO [8d6c4d87] Running /usr/bin/env git remote set-url origin cld2_4@web13.swisscenter.com:git as cld2_4@web13.swisscenter.com
+ DEBUG [8d6c4d87] Command: cd /remote/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-67175ec34e179860071f.sh" ; /usr/bin/env git remote set-url origin cld2_4@web13.swisscenter.com:git )
+  INFO [bffb01f4] Running /usr/bin/env git remote update --prune as cld2_4@web13.swisscenter.com
+ DEBUG [bffb01f4] Command: cd /remote/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-67175ec34e179860071f.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8f7c7a7d] Running if test ! -d /remote/www/repo; then echo "Directory does not exist '/remote/www/repo'" 1>&2; false; fi as cld2_4@web13.swisscenter.com
+ DEBUG [8f7c7a7d] Command: if test ! -d /remote/www/repo; then echo "Directory does not exist '/remote/www/repo'" 1>&2; false; fi
+  INFO [7d484ab1] Running /usr/bin/env mkdir -p /remote/www/releases/20210202100550 as cld2_4@web13.swisscenter.com
+ DEBUG [7d484ab1] Command: cd /remote/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-67175ec34e179860071f.sh" ; /usr/bin/env mkdir -p /remote/www/releases/20210202100550 )
+  INFO [ac1b0fcc] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /remote/www/releases/20210202100550 as cld2_4@web13.swisscenter.com
+ DEBUG [ac1b0fcc] Command: cd /remote/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-67175ec34e179860071f.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /remote/www/releases/20210202100550 )
+ DEBUG [7eed2e3c] Running if test ! -d /remote/www/repo; then echo "Directory does not exist '/remote/www/repo'" 1>&2; false; fi as cld2_4@web13.swisscenter.com
+ DEBUG [7eed2e3c] Command: if test ! -d /remote/www/repo; then echo "Directory does not exist '/remote/www/repo'" 1>&2; false; fi
+ DEBUG [e17c7d33] Running /usr/bin/env git rev-list --max-count=1 master as cld2_4@web13.swisscenter.com
+ DEBUG [e17c7d33] Command: cd /remote/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-67175ec34e179860071f.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [3eb2aec7] Running if test ! -d /remote/www/releases/20210202100550; then echo "Directory does not exist '/remote/www/releases/20210202100550'" 1>&2; false; fi as cld2_4@web13.swisscenter.com
+ DEBUG [3eb2aec7] Command: if test ! -d /remote/www/releases/20210202100550; then echo "Directory does not exist '/remote/www/releases/20210202100550'" 1>&2; false; fi
+  INFO [e4139c8a] Running /usr/bin/env echo "" > REVISION as cld2_4@web13.swisscenter.com
+ DEBUG [e4139c8a] Command: cd /remote/www/releases/20210202100550 && /usr/bin/env echo "" > REVISION
+  INFO [c283ecab] Running /usr/bin/env ln -s /remote/www/releases/20210202100550 /remote/www/releases/current as cld2_4@web13.swisscenter.com
+ DEBUG [c283ecab] Command: /usr/bin/env ln -s /remote/www/releases/20210202100550 /remote/www/releases/current
+  INFO [af397136] Running /usr/bin/env mv /remote/www/releases/current /remote/www as cld2_4@web13.swisscenter.com
+ DEBUG [af397136] Command: /usr/bin/env mv /remote/www/releases/current /remote/www
+ DEBUG [9f566615] Running /usr/bin/env ls -x /remote/www/releases as cld2_4@web13.swisscenter.com
+ DEBUG [9f566615] Command: /usr/bin/env ls -x /remote/www/releases
+ DEBUG [fb5478bc] Running if test ! -d /remote/www/releases; then echo "Directory does not exist '/remote/www/releases'" 1>&2; false; fi as cld2_4@web13.swisscenter.com
+ DEBUG [fb5478bc] Command: if test ! -d /remote/www/releases; then echo "Directory does not exist '/remote/www/releases'" 1>&2; false; fi
+  INFO [97a25890] Running /usr/bin/env echo "Branch master (at ) deployed as release 20210202100550 by cyril" >> /remote/www/revisions.log as cld2_4@web13.swisscenter.com
+ DEBUG [97a25890] Command: cd /remote/www/releases && /usr/bin/env echo "Branch master (at ) deployed as release 20210202100550 by cyril" >> /remote/www/revisions.log
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:06:42 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [34aefe9e] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [34aefe9e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:20:17 +0100 cap production deplay
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:20:22 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4726d996] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [4726d996] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:25:03 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1f7e727e] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [1f7e727e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:28:13 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6059dec7] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [6059dec7] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 11:30:08 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ad7ba94f] Running /usr/bin/env mkdir -p /tmp as cld2_4@web13.swisscenter.com
+ DEBUG [ad7ba94f] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-02 12:00:55 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e8379497] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [e8379497] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 09:58:50 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1a3e38a7] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [1a3e38a7] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 10:01:56 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5f7e6985] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [5f7e6985] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-09 13:37:10 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bfae037b] Running /usr/bin/env mkdir -p /tmp as cld2_4@cld2-4.mycpnv.ch
+ DEBUG [bfae037b] Command: /usr/bin/env mkdir -p /tmp
