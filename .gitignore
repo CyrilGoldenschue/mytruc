@@ -10,9 +10,6 @@ app/storage/
 public/storage
 public/hot
 # Things handled by webpack
-public/assets
-public/js
-public/css
 
 /config/*_rsa*
 
